@@ -4,11 +4,11 @@ from num2words import num2words
 
 def translate_speech(speech):
     print(translit(speech, 'ru'))
-    print('78 -', translit(num2words(78), 'ru'), '\n',
-          '15 -', translit(num2words(15), 'ru'), '\n',
-          '3 -', translit(num2words(3), 'ru'), '\n',
-          '40 -', translit(num2words(40), 'ru'), '\n',
-          '8 -', translit(num2words(8), 'ru'), sep='')
+    print('78 - ', translit(num2words(78), 'ru'), '\n',
+          '15 - ', translit(num2words(15), 'ru'), '\n',
+          '3 - ', translit(num2words(3), 'ru'), '\n',
+          '40 - ', translit(num2words(40), 'ru'), '\n',
+          '8 - ', translit(num2words(8), 'ru'), sep='')
 
 
 def main():
